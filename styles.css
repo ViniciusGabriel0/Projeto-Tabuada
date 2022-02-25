@@ -1,0 +1,55 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+body{
+ width: 100%;
+ min-height: 100vh;
+ display: grid;
+ place-items: center;      
+}
+
+.container{
+ background-color: aquamarine;
+ width: 350px;
+}
+div.container{
+ width: 100%;
+ max-width: 450px;
+ padding: 50px 3%;
+ border-radius: 20px;
+ font-family: 'Courier New', Courier, monospace;
+ 
+}
+.title{
+ padding-left: 90px;
+ font-family: sans-serif;
+}
+div.container button{
+ width: 100px;
+}
+div.container input{
+ width: 100%;
+ max-width: 50px;
+ padding: 5px 0;
+ font-size: 16px;
+ text-align: center;
+ outline: 0;
+ border-radius: 5px;
+}
+div.container ::-webkit-inner-spin-button{
+ display: none;
+}
+div.tabuada{
+ width: 100%;
+ text-align: center;
+ font-size: 16px;
+ line-height: 32px;
+ margin: 15px 0;
+ padding-left: 90px;
+}
+#name{
+ padding-left: 900px;
+ font-family: 'Courier New', Courier, monospace;
+}
